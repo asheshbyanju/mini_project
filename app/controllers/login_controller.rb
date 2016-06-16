@@ -2,8 +2,10 @@ class LoginController < ApplicationController
 
 	before_action :authenticate_login!
 
-def index
+	def index
+	end
 
-end	
+	def create
+	end
 
 end

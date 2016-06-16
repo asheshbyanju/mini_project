@@ -1,38 +1,18 @@
-<!doctype html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="http://snipplicious.com/css/bootstrap-3.1.1.min.css">
-
-<link rel="stylesheet" type="text/css" href="http://snipplicious.com/css/font-awesome-4.0.3.min.css">
-<style>
-.forum.table > tbody > tr > td {
-    vertical-align: middle;
-}
-
-.forum .fa {
-    width: 1em;
-    text-align: center;
-}
-
-.forum.table th.cell-stat {
-    width: 6em;
-}
-
-.forum.table th.cell-stat-2x {
-    width: 14em;
-}
-
-</style>
 <script src="http://snipplicious.com/js/jquery.js"></script>
 <script src="http://snipplicious.com/js/bootstrap.min.js"></script>
-</head>
-<body>
+  
+  </div>
 <div class="container" style="margin-top: 35px">
-  <div class="page-header page-heading">
+<div id="header">
+  <div class="image">
+  <img src="<%= asset_path( 'headshot.jpg' ) %>" />
+  </div>
+   <div class="page-header page-heading">
+
     <h1 class="pull-left">Forums</h1>
     <ol class="breadcrumb pull-right where-am-i">
-      <li><a href="#">Forums</a></li>
-      <li class="active">List of topics</li>
+      <li><a href="login/show">Login</a></li>
+      <li class="active">SignUp</li>
     </ol>
     <div class="clearfix"></div>
   </div>
@@ -124,5 +104,3 @@
   </table>
 </div>
 </div>
-</body>
-</html>

@@ -1,0 +1,48 @@
+.forum.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+body {
+  background-color: #fff;
+  margin: 2px;
+}
+
+.forum .fa {
+    width: 1em;
+    text-align: center;
+}
+
+.forum.table th.cell-stat {
+    width: 6em;
+}
+
+.forum.table th.cell-stat-2x {
+    width: 14em;
+}
+
+#header{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.image{
+	float: left;
+}
+
+#header img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 80px;
+}
+.title{
+	float: left;
+	margin-left: 20px;
+}
+ul li{
+	list-style-type: none;
+}
+
+.details{
+	float: right;
+	}
