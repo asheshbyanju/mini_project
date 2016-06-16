@@ -9,10 +9,18 @@ Rails.application.routes.draw do
   # get 'login/prac' => 'login#prac'
 
 
-  resources :login do 
+  resources :login do
     collection do
       get 'index'
       get 'prac'
+
+    end
+  end
+
+
+  resources :post do
+    collection do
+      get 'post'
 
     end
   end
