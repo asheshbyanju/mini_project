@@ -4,6 +4,10 @@ class LoginController < ApplicationController
 
 def index
 
-end	
+end
+
+
+def prac
+end
 
 end
